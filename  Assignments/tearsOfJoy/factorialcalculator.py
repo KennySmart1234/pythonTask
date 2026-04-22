@@ -1,16 +1,22 @@
 
 
-number = int(input("Enter a number: "))
 
 
-count = 1
-while count < number:
-    
-    
+#number = int(input("Enter a number: "))
 
 
 
-print(count)
+
+product = 1
+
+for number in range(10, 0 -1):
+    print(product * number)
+
+#count = 1
+#while count < number:
+#    
+#
+#print(count)
 
 
 
