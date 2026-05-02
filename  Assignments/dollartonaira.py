@@ -11,7 +11,7 @@ def dollar_to_naira(dollar_amount, exchange_rate = 1550):
 
 dollar_amount = int(input("Enter dollar amount: "))
 conversion_result = dollar_to_naira(dollar_amount)
-print(conversion_result)
+print("Your naira amount is: ", conversion_result)
 
 
 
