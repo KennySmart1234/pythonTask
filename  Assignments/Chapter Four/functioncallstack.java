@@ -1,0 +1,1 @@
+//A function-call stack is a LIFO structure that stores each function’s activation record: parameters, local variables, return address. Every time you call a function, its push a new frame onto the stack. Every time a function returns, its pop that frame off.If you keep pushing without popping, the stack keeps growing upward in memory until it hits its allocated limit.
